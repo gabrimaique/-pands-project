@@ -3,6 +3,7 @@
 ## Introduction
 
 The iris flower data set was introduced by the statistician and biologist Ronald Fisher in 1936. It is an example of linear discriminant analysis, which is the method used in statistics to classify observations into two or more groups or categories. The data set consists of 50 sample for each of three iris species: 
+
 · Iris setosa
 · Iris versicolor
 · Iris virginica.
