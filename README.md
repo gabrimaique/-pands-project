@@ -1,5 +1,16 @@
+# Fisher's Iris Data Set
+
 ## Introduction
 
-The Iris flower data set or Fisher's Iris data (also called Anderson's Iris data set) set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper "The use of multiple measurements in taxonomic problems".[01] The data set consists of 3 species of Iris plants (Setosa, Versicolor and Virginica). Edgar Anderson collected 50 samples of the flower, of which each was a different species. He collected 150 in total. For each sample he measured the sepal length and width, and the petal length and width along with the corresponding species. The data contains the sepal length and width, and the petal length and width.[02]
+The iris flower data set was introduced by the statistician and biologist Ronald Fisher in 1936. It is an example of linear discriminant analysis, which is the method used in statistics to classify observations into two or more groups or categories. The data set consists of 50 sample for each of three iris species: 
+· Iris setosa
+· Iris versicolor
+· Iris virginica.
 
+Each specie has 4 measurements applies to it:
+· Sepal Length (cm)
+· Sepal Width (cm)
+· Petal Length (cm)
+· Petal Width (cm)
+	
 ![iris.png](https://github.com/gabrimaique/-pands-project/blob/main/iris.png)
