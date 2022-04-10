@@ -52,7 +52,7 @@ The output below was created to write information from it to a .txt file each ti
 
 ## Basic Analysis
 
-### By using the function data.head() we add the first and last 5 rows from the .csv. It is useful for quickly testing if your object has the richt type of data in it.
+By using the function data.head() we add the first and last 5 rows from the .csv. It is useful for quickly testing if your object has the richt type of data in it.
 
 ![firstandlast5rows.png](https://github.com/gabrimaique/-pands-project/blob/main/first%20and%20last%205%20rows.png)
 
