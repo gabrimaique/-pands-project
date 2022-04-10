@@ -40,6 +40,7 @@ The raw data was taken from UC Irvine Machine Learning Repository as a csv (comm
 
 ```sh
     data = pd.read_csv("irisData.csv")
+```    
 
 I imported the pandas package in order to read the csv file(used to store tabular data, such as a spreadsheet or database) and convert the data into a pandas dataframe.
 
@@ -47,12 +48,13 @@ The output below was created to write information from it to a .txt file each ti
 
 ```sh
     text = open ("analysisSummary.txt", "w")
+```    
 
 ## Basic Analysis
 
 ### By using the function data.head() we add the first and last 5 rows from the .csv. It is useful for quickly testing if your object has the richt type of data in it.
 
-![firstandlast5rows.png]
+![firstandlast5rows.png](https://github.com/gabrimaique/-pands-project/blob/main/first%20and%20last%205%20rows.png)
 
 
 
