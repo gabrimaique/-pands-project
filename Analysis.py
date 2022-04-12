@@ -34,12 +34,11 @@ print ("Summary of numerical values:", file = text)
 print (data.describe(), file = text) 
 print (" ", file = text)
 
-
-
 print ("Types of iris species:", file = text)
 # accurance of iris species
 print (data["Species"].value_counts(), file = text) 
 print (" ", file = text)
+
 
 # the data was divided in species 
 # it select the column species from the text
