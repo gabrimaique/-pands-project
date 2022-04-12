@@ -50,13 +50,32 @@ The output below was created to write information from it to a .txt file each ti
     text = open ("analysisSummary.txt", "w")
 ```    
 
-## Basic Analysis
+## Basic 
 
+### Head()
 By using the function data.head() we add the first and last 5 rows from the .csv. It is useful for quickly testing if your object has the right type of data in it.
 
 ![firstandlast5rows.png](https://github.com/gabrimaique/-pands-project/blob/main/first%20and%20last%205%20rows.png)
 
 There are five variables, four of them are type float(sepal length, sepal width, petal length and petal width) and one string(class).
+
+### Adding information
+The file = text adds the  title, create space and add information to the .txt file.
+
+```sh
+print ("Summary", file = text)
+print (" ", file = text) 
+print ("General layout of Fisher's Iris datafile:", file = text) 
+print (data, file = text)
+```  
+
+### Describe()
+The describe() method prints out a summary of the Dataframe containing the mean, max, standard deviation etc. of the data file.
+
+![describe.png]
+
+
+
 
 
 
