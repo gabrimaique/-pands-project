@@ -70,9 +70,16 @@ print (data, file = text)
 ```  
 
 ### Describe()
-The describe() method prints out a summary of the Dataframe containing the mean, max, standard deviation etc. of the data file.
-
+The describe() method prints out a summary of the Dataframe containing the mean, max, standard deviation etc. of the data file. It gives some information and basic statistics of the 4 features.
+```sh
+print (data.describe(), file = text)
+```
 ![describe.png](https://github.com/gabrimaique/-pands-project/blob/main/describe.png.png)
+
+#### Observations: 
+* Count represents the number of records in the data set
+* Mean is the average of all data 
+* A standard deviation is a measure of the average distance between the values of the data in the set and the mean
 
 
 
