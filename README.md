@@ -81,8 +81,18 @@ print (data.describe(), file = text)
 * Mean is the average of all data 
 * A standard deviation is a measure of the average distance between the values of the data in the set and the mean
 
-
-
+### Value_counts()
+This operation prints out from the species column the Number of rows in each group as a Series. There are 50 entries for each species.
+```sh
+print (data["Species"].value_counts(), file = text) 
+```
+```sh
+Types of iris species:
+Iris-setosa        50
+Iris-versicolor    50
+Iris-virginica     50
+Name: Species, dtype: int64
+```
 
 
 
