@@ -72,7 +72,7 @@ print (data, file = text)
 ### Describe()
 The describe() method prints out a summary of the Dataframe containing the mean, max, standard deviation etc. of the data file.
 
-![describe.png]
+![describe.png](https://github.com/gabrimaique/-pands-project/blob/main/describe.png.png)
 
 
 
