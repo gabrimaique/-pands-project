@@ -50,7 +50,7 @@ The output below was created to write information from it to a .txt file each ti
     text = open ("analysisSummary.txt", "w")
 ```    
 
-## Basic 
+## Basic Analysis
 
 ### Head()
 By using the function data.head() we add the first and last 5 rows from the .csv. It is useful for quickly testing if your object has the right type of data in it.
@@ -93,6 +93,8 @@ Iris-versicolor    50
 Iris-virginica     50
 Name: Species, dtype: int64
 ```
+
+Data Visualization
 
 
 
