@@ -94,7 +94,39 @@ Iris-virginica     50
 Name: Species, dtype: int64
 ```
 
-Data Visualization
+## Data Visualization
+
+3 different variable types were established by selecting the column "species" from the file. 
+```sh
+irisSetosa = data[data.Species == "Iris-setosa"]
+irisVersicolor = data[data.Species == "Iris-versicolor"]
+irisVirginica = data[data.Species == "Iris-virginica"]
+```
+### Histograms 
+
+Now that we have a basic idea about the data we need to extend that with some visualizations. I added 4 histograms to the project using Seaborn and Matloplib (Sepal length, sepal width, petal length and petal width). We used the Seaborn library to make the histograms using the information from the dataset. This will display the variables in an easy-to-read graphic that shows the frequency that individual variables appear in the data frame.
+
+I used the following code to generate the histograms. This process is repeated for each histogram with the measurements changed.
+
+```sh
+sns.distplot(irisSetosa['sepalLenghtCm'], kde = False, label = 'Iris Setosa', color = 'green')
+sns.distplot(irisVersicolor['sepalLenghtCm'], kde = False, label = 'Iris Versicolor', color = 'red')
+sns.distplot(irisVirginica['sepalLenghtCm'], kde = False, label = 'Iris Virginica', color = 'blue')
+plt.xlabel ('Centimeters') 
+plt.ylabel ('Frequency') 
+plt.title ('Sepal Length')
+plt.legend() 
+plt.savefig('Sepal Length in CM')
+plt.show()
+```
+![Sepal Length in CM](https://github.com/gabrimaique/-pands-project/blob/main/Sepal%20Length%20in%20CM.png)
+
+![Sepal Width in CM](https://github.com/gabrimaique/-pands-project/blob/main/Sepal%20Width%20in%20CM.png)
+
+![Petal Length in CM](https://github.com/gabrimaique/-pands-project/blob/main/Petal%20Length%20in%20CM.png)
+
+![Petal Width in CM](https://github.com/gabrimaique/-pands-project/blob/main/Petal%20Width%20in%20CM.png)
+
 
 
 

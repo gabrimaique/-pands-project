@@ -46,6 +46,7 @@ irisSetosa = data[data.Species == "Iris-setosa"]
 irisVersicolor = data[data.Species == "Iris-versicolor"]
 irisVirginica = data[data.Species == "Iris-virginica"]
 
+
 # sns(seaborn library)
 # seaborn.distplot lets you show the histogram 
 # kde=False hide kernel and only display the histogram.
@@ -80,7 +81,7 @@ plt.legend()
 plt.savefig('Petal Length in CM')
 plt.show()
 
-#Histogram for Petal Width 
+# Petal Width 
 sns.distplot(irisSetosa['petalWidthCm'], kde = False, label = 'Iris Setosa', color = 'green')
 sns.distplot(irisVersicolor['petalWidthCm'], kde = False, label = 'Iris Versicolor', color = 'red')
 sns.distplot(irisVirginica['petalWidthCm'], kde = False, label = 'Iris Virginica', color = 'blue')
