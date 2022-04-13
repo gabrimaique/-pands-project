@@ -127,6 +127,10 @@ plt.show()
 
 ![Petal Width in CM](https://github.com/gabrimaique/-pands-project/blob/main/Petal%20Width%20in%20CM.png)
 
+#### Observations: 
+* the Iris Setosa is linearly separable from the others when looking at the Petals.
+* The Petal are well divided in both width and length but in the sepal there are significant amounts of overlap, this is why the colours get mixed together 
+* Iris Setosa has a much smaller petal length and petal width than the other 2 species.
 
 
 
