@@ -156,6 +156,12 @@ plt.show()
 
 ![Sepal Width and Petal Width Scatter Plot](https://github.com/gabrimaique/-pands-project/blob/main/Sepal%20Width%20and%20Petal%20Width%20Scatter%20Plot.png)
 
+#### Observations:
+* Sepal length vary from 4.0 to 8.0 while sepal width vary from 2.0 to 4.5
+* Petal lengh vary from 1.0 to 7.0 while petal width vary from 0 to 2.5
+* Setosa is the smallest of the three species, except for Sepal Width
+* Setosa is very well separated than that of Versicolor and Virginica
+
 
 
 
