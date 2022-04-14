@@ -92,7 +92,7 @@ plt.legend()
 plt.savefig('Petal Width in CM')
 plt.show()
 
-# 
+# Scatter plot for Sepal Comparasion
 sns.scatterplot(x = "sepalLenghtCm", y = "sepalWidthCm", data = data, hue = "Species", palette = ['green', 'red', 'blue']) 
 # x-axis
 plt.xlabel ('Length in Centimeters') 

@@ -132,8 +132,29 @@ plt.show()
 * The Petal are well divided in both width and length but in the sepal there are significant amounts of overlap, this is why the colours get mixed together 
 * Iris Setosa has a much smaller petal length and petal width than the other 2 species.
 
+### Scatter Plots
 
+Scatter plots show how much one variable is affected by another, it is a quick and simple way to look at the relationship between the variables and easier for the inexperienced user to interpret the data. A Scatter (XY) Plot has points that show the relationship between two sets of data. I added 4 Scatter Plots to the project using Seaborn and Matloplib (Sepal comparasion, petal comparasion, sepal and petal lenght and sepal and petal width).
 
+I used the following code to generate the Scatter Plosts. This process is repeated for each Scatter Plots with the measurements and the variable changed.
+
+```sh
+sns.scatterplot(x = "petalLengthCm", y = "petalWidthCm", data = data, hue = "Species", palette = ['green', 'red', 'blue') 
+plt.xlabel ('Length in Centimeters') 
+plt.ylabel ('Width in Centimeters') 
+plt.title ('Petal') 
+plt.legend() 
+plt.savefig('Petal Scatter Plot') 
+plt.show()
+```
+
+![Sepal Scatter Plot](https://github.com/gabrimaique/-pands-project/blob/main/Sepal%20Scatter%20Plot.png)
+
+![Petal Scatter Plot](https://github.com/gabrimaique/-pands-project/blob/main/Petal%20Scatter%20Plot.png)
+
+![Sepal Length and Petal Length Scatter Plot](https://github.com/gabrimaique/-pands-project/blob/main/Sepal%20Length%20and%20Petal%20Length%20Scatter%20Plot.png)
+
+![Sepal Width and Petal Width Scatter Plot](https://github.com/gabrimaique/-pands-project/blob/main/Sepal%20Width%20and%20Petal%20Width%20Scatter%20Plot.png)
 
 
 
