@@ -162,6 +162,21 @@ plt.show()
 * Setosa is the smallest of the three species, except for Sepal Width
 * Setosa is very well separated than that of Versicolor and Virginica
 
+### Pair Plots
+
+The pairplot function gives an overview of different plots. It builds on two basic figures, the histogram and the scatter plot. The pairplot produces a matrix of relationships between each variable in the dataset for an instant examination of the data and even allows the data to be split by species type. 
+
+I used the following code to generate the Pairplot.
+
+```sh
+sns.pairplot(data, hue = 'Species', palette = ['green', 'red', 'blue'])
+plt.savefig('Iris Pairplot') 
+plt.show()
+```
+![Iris Pairplot](https://github.com/gabrimaique/-pands-project/blob/main/Iris%20Pairplot.png)
+
+#### Observations:
+
 
 
 
