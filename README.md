@@ -176,7 +176,9 @@ plt.show()
 ![Iris Pairplot](https://github.com/gabrimaique/-pands-project/blob/main/Iris%20Pairplot.png)
 
 #### Observations:
-
+* The iris Setosa does not seem to have any relationship with the other two species
+* While Setosa can be easily identified Versicolor and Virginica have some overlap
+* The last two rows of the petal width and length show groupings with only a slight cross over in the iris versicolor and Iris virginica
 
 
 
