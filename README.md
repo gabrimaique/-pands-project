@@ -166,7 +166,7 @@ plt.show()
 
 The pairplot function gives an overview of different plots. It builds on two basic figures, the histogram and the scatter plot. The pairplot produces a matrix of relationships between each variable in the dataset for an instant examination of the data and even allows the data to be split by species type. 
 
-I used the following code to generate the Pairplot.
+I used the following code to generate the Pairplot:
 
 ```sh
 sns.pairplot(data, hue = 'Species', palette = ['green', 'red', 'blue'])
@@ -177,8 +177,17 @@ plt.show()
 
 #### Observations:
 * The iris Setosa does not seem to have any relationship with the other two species
-* While Setosa can be easily identified Versicolor and Virginica have some overlap
+* Setosa can be easily identified but Versicolor and Virginica have some overlap
 * The last two rows of the petal width and length show groupings with only a slight cross over in the iris versicolor and Iris virginica
+
+### Conclusion: 
+
+We've used Python libraries, like pandas and seaborn, to apply some data analysis techniques, to analyse the iris data set and have insights while we were exploring this data. 
+By using all this data visualization tools is possible to have different conclusion, it all depends on which questions do you want to answer. 
+Questions like: Which flower has the smallest petal or which 
+variable you will find significant amounts of overlap, can be easily answered if you look all those graphics generated.
+One insight that I have analysing the dataset is that it is quite easy to differentiate the setosa species from the versicolor and the virginica because the iris Setosa is very well separated than that of Versicolor and Virginica. 
+
 
 
 
