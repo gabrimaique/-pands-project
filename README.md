@@ -183,9 +183,12 @@ plt.show()
 ### Conclusion: 
 
 We've used Python libraries, like pandas and seaborn, to apply some data analysis techniques, to analyse the iris data set and have insights while we were exploring this data. 
+
 By using all this data visualization tools is possible to have different conclusion, it all depends on which questions do you want to answer. 
+
 Questions like: Which flower has the smallest petal or which 
 variable you will find significant amounts of overlap, can be easily answered if you look all those graphics generated.
+
 One insight that I have analysing the dataset is that it is quite easy to differentiate the setosa species from the versicolor and the virginica because the iris Setosa is very well separated than that of Versicolor and Virginica. 
 
 
