@@ -191,6 +191,41 @@ variable you will find significant amounts of overlap, can be easily answered if
 
 One insight that I have analysing the dataset is that it is quite easy to differentiate the setosa species from the versicolor and the virginica because the iris Setosa is very well separated than that of Versicolor and Virginica. 
 
+References: 
+
+https://archive.ics.uci.edu/ml/datasets/iris
+
+https://en.wikipedia.org/wiki/Iris_flower_data_set
+
+Iris Dataset Analysis (Classification) | Machine Learning | Python
+https://www.youtube.com/watch?v=pTjsr_0YWas&t=602s
+
+Iris Dataset EDA Lecture1@ Applied AI Course
+https://www.youtube.com/watch?v=FLuqwQgSBDw&t=1361s
+
+https://medium.com/@sulavojha11/exploratory-data-analysis-on-iris-dataset-84832e519040
+
+https://www.hackersrealm.net/post/iris-dataset-analysis-using-python
+
+Python Data Analysis with Iris Dataset | Data Science, plotting & graphing
+https://www.youtube.com/watch?v=02BFXhPQWHQ&t=455s
+
+https://www.geeksforgeeks.org/reading-writing-text-files-python/
+
+https://stackoverflow.com/questions/28177983/what-does-the-w-mean-in-openfilename-w
+
+https://www.w3schools.com/python/matplotlib_markers.asp
+
+Working With Iris.csv | Iris Data Set In Less Than 10 minutes | Great Learning
+https://www.youtube.com/watch?v=HXi9cl5Aq5w
+
+Iris Flower Classification, machine learning project for beginners using python
+https://www.youtube.com/watch?v=BrFEmO-zPuA&t=504s
+
+https://www.geeksforgeeks.org/scatterplot-using-seaborn-in-python/
+
+Pair Plot in Seaborn: Lecture 3 | Python Seaborn | Exploratory Data Analysis | Applied AI Course
+https://www.youtube.com/watch?v=b7JuBsswDlo
 
 
 
